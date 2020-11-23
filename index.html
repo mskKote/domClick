@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>ДомКлик</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicons.png" type="image/x-icon">
+</head>
+<body>
+	<form action="">
+        <fieldset id="gen">
+            <!-- <img id="img-dom-click" src="images/dom-click.png" alt="Логотип ДомКлик"> -->
+            <img id="img-dom-click" src="images/dom-click_v2.png" alt="Логотип ДомКлик">
+            <fieldset id="fs-labs">
+                <label id="lab-1">Номер квартиры:
+                    <input id="num-apart" type="number">
+                </label>
+                <label>Кадастровый номер:
+                    <input id="num-cad" type="number">
+                </label>
+                <label title="При выборе формата 'Циан' комиссия не учитывается">Комиссия:
+                    <img id="about-com" src="images/icons8-administrator-male-2-64.png" alt="">
+                    <input id="comission" type="number">
+                </label>
+                <label>Номер агента "Партнер Онлайн":
+                    <input id="num-ag" type="text" class="phone" placeholder="+7(___)___-____">
+                </label>
+            </fieldset>
+ 
+            <fieldset id="fs-btns">
+                <legend><b>Выбор формата</b></legend>
+                <div id="div-btns">
+                    <button id="yandex">Яндекс<img src="images/icons8-sort-down-24.png" alt=""></button>
+                    <button id="avito">Авито<img src="images/icons8-sort-down-24.png" alt=""></button>
+                    <button id="cian">Циан<img src="images/icons8-sort-down-24.png" alt=""></button>
+                </div>
+            </fieldset>
+        </fieldset>
+    </form>
+    
+    <div id="res-xml">
+        <img id="copy-to-buffer" src="images/icons8-new-copy-80.png" title="Копировать текст" alt="Кнопка копировать текст">
+        <pre><code>Тут появится результат</code></pre>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

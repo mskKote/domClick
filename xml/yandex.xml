@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<apartment></apartment>
+
+<cadastral-number></cadastral-number>
+
+<commission></commission>
+
+<sales-agent>
+    <responsible_officer_phone>
+    
+    </responsible_officer_phone>
+</sales-agent>
+
+
+
+<!-- Номер квартиры - <apartment></apartment>
+Кадастровый номер - <cadastral-number></cadastral-number>
+Комиссия - <commission></commission>
+??????? - В случае, если вы хотите, чтобы звонки с ДомКлик поступали на колл-центр, 
+но вашему объявлению было доступно онлайн-одобрение, 
+передайте в фиде специальный тег с номером агента из «Партнер Онлайн»:
+<sales-agent>
+<responsible_officer_phone></responsible_officer_phone>
+</sales-agent> -->

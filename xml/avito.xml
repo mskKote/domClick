@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FlatNumber></FlatNumber>
+
+<CadastralNumber></CadastralNumber>
+
+<commission></commission>
+
+<ResponsibleOfficerPhone></ResponsibleOfficerPhone>
+
+
+
+<!-- Номер квартиры - <FlatNumber></FlatNumber>
+Кад. номер - <CadastralNumber></CadastralNumber>
+Комиссии - <commission></commission>
+???????? - В случае, если вы хотите, чтобы звонки с ДомКлик поступали на колл-центр,
+но вашему объявлению было доступно онлайн-одобрение, 
+то передайте в фиде специальный тег с номером агента из Партнер Онлайн:
+<ResponsibleOfficerPhone></ResponsibleOfficerPhone> -->
